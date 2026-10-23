@@ -1,0 +1,35 @@
+runs/
+tools/
+__pycache__/
+.venv/
+*.tmp
+ui_uploads/
+ui_config.json
+ui-server.*
+
+# Machine/account state and local research inputs/outputs
+environment_status.json
+ui_config*.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.log
+docs/*.json
+docs/*.png
+docs/screenshots/
+docs/K_IFRS_기준서/
+docs/peer-audit-qa/
+docs/*-text.txt
+docs/verified_evidence.md
+docs/evidence_requests.md
+
+# CLI credentials must never be committed
+.claude/
+.codex/
+.gemini/
+.codebuddy/
+auth.json
+credentials.json
